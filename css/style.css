@@ -30,6 +30,10 @@
     gap: 48px;
 }
 
+.page-lists:hover {
+    transform: translateY(-10px);
+}
+
 .header-list {
     font-family: Inter;
     font-weight: 400;
@@ -38,9 +42,7 @@
     letter-spacing: 0%;
 }
 
-.page-lists:hover {
-    transform: translateY(-10px);
-}
+
 
 .active {
     color: #ED6C30;
@@ -107,7 +109,6 @@
     background-color: #FFE18A;
     justify-content: center;
     align-items: center;
-    min-width: none;
     gap: 30px;
     padding-block: 96px 104px;
 
