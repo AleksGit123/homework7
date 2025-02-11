@@ -2,16 +2,22 @@
     max-width: 1440px;
     width: 100%;
     margin: auto;
+    padding-top: 136px;
 }
 
 /* header  */
 
 .index-header {
     display: flex;
+    position: fixed;
+    top: 0;
     justify-content: space-between;
     align-items: center;
     background-color: #372D23;
     padding: 32px 80px;
+    z-index: 1;
+    max-width: inherit;
+    width: inherit;
 }
 
 .site-logo-link {
@@ -66,6 +72,7 @@
 .section1 {
     display: flex;
     position: relative;
+
     /* border: 5px solid red; */
 }
 
